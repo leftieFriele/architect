@@ -1,5 +1,6 @@
 let chalk = require('chalk')
-let {readArc, initAWS} = require('@architect/utils')
+let readArc = require('@architect/utils/init-arc')
+let initAWS = require('@architect/utils/init-aws')
 
 /**
  * ensures the following env vars are present:
